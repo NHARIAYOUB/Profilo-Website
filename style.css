@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background: linear-gradient(#a619f8,#eee12d);
+  background-attachment: fixed;
+  overflow-x:hidden;
+}
+.logo{
+    position: relative;
+    right: 735px;
+    top: 57px;
+    
+}
+.navbar{
+    position: relative;
+    top: 10px;
+    display: block;
+    margin: -20px;
+    background-color: rgb(253, 251, 251);
+    box-shadow: 12px 12px 20px #555555;
+    
+    
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 40px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.button{
+    position: relative;
+    left: 22rem;
+    margin: 15px;
+    width: 60px ;
+    height:35px ;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+
+}
+
+.button:hover{
+    color: gold;
+}
+
+.btn22{
+    position: relative;
+    left: 22rem;
+    width: 70px ;
+    height:35px ;
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.btn22:hover{
+    opacity: 0.8;
+}
+
+
+.navbar nav ul li a:hover{
+    color: gold;
+    transition: 0.5s;
+    
+}
+
+.header-titels{
+    position: relative;
+    top: 181px;
+    left: 100px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.header-titels .t1 span{
+    color: gold;
+    font-size: 140px;
+}
+
+.header-titels .t1{
+    color: white;
+}
+
+.t2{
+    font-size: 20px;
+    color: white;
+}
+
+
+.paragrafes{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.buttons{
+    position: relative;
+    top: 30px;
+    
+    
+}
+
+.buttons .btn1{
+    width:150px ;
+    height:40px ;
+    border: none;
+    background-color: gold;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.buttons .btn1:hover{
+   opacity: 0.8;
+}
+
+
+
+
+
+
+.buttons .btn2{
+    width:100px ;
+    height:40px ;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.buttons .btn2:hover{
+    opacity: 0.8;
+}
+
+
+
+.about-titel{
+    text-align: left;
+    position: relative;
+    top: 700px;
+    left: 40px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+
+.about-paragrafes{
+    text-align: left;
+    position: relative;
+    top: 700px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+
+
+.images{
+    position: relative;
+    top:200px ;
+    left: 48rem;
+   
+
+}
+
+.images img{
+    border-radius: 50%;
+    
+}
+
+.t-skills{
+    text-align: left;
+    position: relative;
+    top: 700px;
+    left: 80px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+
+.a-skills{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    list-style: none;
+    
+    
+}
+
+.a-skills li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.html-css-js img{
+    position: relative;
+    left: 400px;
+    top: -130px;
+    width: 300px;
+    height: auto;
+}
+
+.t-servise{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    
+}
+
+.servises{
+    display: flex;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.h2-sercise{
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+
+.p-servise{
+    color: white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.homepage-seen {
+    width: 400px;
+    height: 200px;
+    padding: 25px;
+    cursor: pointer;
+    
+}
+
+.link-social{
+    position: relative;
+    top: 70px;
+    left: 2px;
+    
+}
+
+.link-social a{
+    padding: 15px;
+    color: black;
+    border-radius: 50%;
+}
+
+.link-social a:hover{
+    color: gold;
+}
+
+
+.about-me{
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p-about-me{
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.numbers-skills{
+   
+    display: grid;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: center;
+}
+
+.h1-90{
+    background-color:#a619f8;
+    border-radius: 10px;
+}
+
+.footer-project{
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.img-footer img{
+    width: 30%;
+    height: auto; 
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}
+
+.img-footer img:hover{
+    cursor: pointer;
+    
+}
+
+.footer-project p{
+    position: relative;
+    top: -80px;
+}
+
+.inputs{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+
+.inputs input{
+    width: 500px;
+   height: 36px;
+   border-radius: 5px;
+   border: none;
+}
+
+.button-footer{
+    position: relative;
+    top: -30px;
+    
+
+}
+.button-footer button{
+    width: 500px;
+   height: 36px;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 2px solid #a619f8;
+   
+   
+}
+
+
+.button-footer button:hover{
+    background-color: #eee12d;
+    box-shadow: 9px 9px 17px #555555;
+}
+
+::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.final-footer{
+    position: relative;
+    top: 350px;
+    left: 80px;
+    text-align: left;
+}
+
+.H1-footer{
+    position: relative;
+    top: -40px;
+}
+
+.links-socialmedia{
+    font-size: 30px;
+}
+
+.links-socialmedia a{
+    padding: 10px;
+}
+
+.copy{
+    position: relative;
+    right: 80px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.contacte-footer{
+    text-align: center;
+    position: relative;
+    bottom:300px ;
+    left: 30px;
+    padding: 10px;
+}
+.p-contact{
+    position: relative;
+    top: 100px;
+    
+}
+
+.p-contact p{
+    padding: 10px;
+}
+
+
+.img-logo{
+    position: relative;
+    right: 650px;
+    width: 400px;
+    width: 400px;
+}
+
+
